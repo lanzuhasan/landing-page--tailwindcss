@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="font-Poppins">
+    <div class="wrapper">
+        <div class="main">
+            </header class="bg-bookmark-white">
+                <div class="container">
+                    <nav class="flex justify-between sm:items-start items-end py-4 mt-4 sm:mt-12">
+                        <div class="py-1 mt-1">
+                            <img src="./img/logo-bookmark.svg" alt="Image not found">
+                        </div>
+                        <ul id="toggle-class" class="hidden sm:flex flex-1 justify-end items-center gap-8 md:gap-12 text-blue uppercase text-base sm:mt-3 sm:mr-12">
+                            <li><a href="#" class="no-underline text-xs md:text-base hover:nav-hover">feature</a></li>
+                            <li><a href="#" class="no-underline text-xs md:text-base">pricing</a></li>
+                            <li><a href="#" class="no-underline text-xs md:text-base">contact</a></li>
+                        </ul>
+                        <div class="flex sm:justify-end sm:items-end">
+                            <button type="button" class="buttn bg-red text-white rounded-md px-3 py-2 text-xs sm:px-7 sm:py-3 uppercase sm:text-sm">login</button>
+                            <div class="flex sm:hidden justify-end text-2xl items-center ml-5" onclick="navToggle()">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            <header>
+            <section class="relative">
+                <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+                    <div class="flex flex-1 flex-col items-center lg:items-start">
+                        <h2 class="text-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">A Simple Borkmark Manager</h2>
+                        <p class="text-gray text-lg text-center lg:text-left mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum quo eligendi necessitatibus doloribus praesentium qui facilis quos architecto commodi sit.</p>
+                        <div class="flex justify-center flex-wrap gap-6">
+                            <button type="button" class="btn btn-purple hover:bg-white hover:text-black text-lg">Get it on Chrome</button>
+                            <button type="button" class="btn btn-white hover:bg-purple hover:text-white text-lg">Get it on Firefox</button>
+                        </div>
+                    </div>
+                        
+                    <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+                        <img class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src="./img/hero-bg.png" alt="Imagenot found">
+                    </div>
+                </div>
+                <div class="hidden md:block overflow-hidden bg-purple rounded-l-full absolute w-1/2 h-80 top-32 right-0 lg:-bottom-26"></div>
+            </section>
+            <section class="bg-white py-24 mt-20 lg:mt-60">
+                <div class="container">
+                    <h1 class="text-3xl text-center text-blue">Feature</h1>
+                    <p class="text-center text-grey mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia sunt natus nesciunt! Temporibus quis numquam provident in soluta, nesciunt beatae earum ipsum repellat nulla alias, vitae, deserunt quidem? Autem?
+                    </p>
+                </div>
+                <div class="relative mt-20 lg:mt-24">
+                    <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-16">
+                    
+                        <div class="flex flex-1 mb-10 justify-center lg:mb-0 z-10">
+                            <img class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src="./img/illustration-features-tab-1.png" alt="Imagenot found">
+                        </div>
+                        <div class="flex flex-1 flex-col items-center lg:items-start">
+                            <h1 class="text-blue text-3xl">Bookmark in one click</h1>
+                            <p class="text-gray my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum quo eligendi necessitatibus doloribus praesentium qui facilis quos architecto commodi sit.</p>
+                            <button type="button" class="btn btn-purple hover:bg-white hover:text-black text-lg">See More</button>
+                        </div>
+                    </div>
+                    <div class="hidden lg:block overflow-hidden bg-purple rounded-r-full absolute w-1/2 h-80 -bottom-24 -left-28"></div>
+                </div>
+
+            </section>
+
+            <section class="bg-white sm:py-24 py-8">
+                <div class="relative mt-20 lg:mt-24">
+                    <div class="container flex flex-col-reverse lg:flex-row items-center justify-center gap-x-16">
+                        <div class="flex flex-1 flex-col items-center lg:items-start">
+                            <h1 class="text-blue text-3xl">Intelligent Search</h1>
+                            <p class="text-gray my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum quo eligendi necessitatibus doloribus praesentium qui facilis quos architecto commodi sit.</p>
+                            <button type="button" class="btn btn-purple hover:bg-white hover:text-black text-lg">More Info</button>
+                        </div>
+                        <div class="flex flex-1 mb-10 justify-center lg:mb-0 z-10">
+                            <img class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src="./img/illustration-features-tab-2.png" alt="Imagenot found">
+                        </div>
+                    </div>
+                    <div class="hidden lg:block overflow-hidden bg-purple rounded-l-full absolute w-1/2 h-80 -bottom-24 right-0"></div>
+                </div>
+
+            </section>
+
+            <section class="bg-white py-24">
+                <div class="relative mt-20 lg:mt-24">
+                    <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-16">                    
+                        <div class="flex flex-1 mb-10 justify-center lg:mb-0 z-10">
+                            <img class="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src="./img/illustration-features-tab-3.png" alt="Imagenot found">
+                        </div>
+                        <div class="flex flex-1 flex-col items-center lg:items-start">
+                            <h1 class="text-blue text-3xl">Share your Bookmark</h1>
+                            <p class="text-gray my-4 text-center lg:text-left sm:w-3/4 lg:w-full">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum quo eligendi necessitatibus doloribus praesentium qui facilis quos architecto commodi sit.</p>
+                            <button type="button" class="btn btn-purple hover:bg-white hover:text-black text-lg">More Info</button>
+                        </div>
+                    </div>
+                    <div class="hidden lg:block overflow-hidden bg-purple rounded-r-full absolute w-1/2 h-80 -bottom-24 -left-28"></div>
+                </div>
+
+            </section>
+
+            <section class="mt-20 lg:mt-60 bg-bookmark-white">
+                <div class="container">
+                    <h1 class="text-3xl text-center text-black">Download the extension</h1>
+                    <p class="text-center text-grey mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia sunt natus nesciunt! Temporibus quis numquam provident in soluta.
+                    </p>
+                </div>
+                <div class="container grid grif-col-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-16">
+                    <div class="flex flex-col shadow-md rounded-md lg:mb-16">
+                        <div class="flex flex-col items-center p-6">
+                            <img src="img/logo-chrome.svg" alt="Image not found">
+                            <h3 class="text-lg text-blue font-semibold mt-8">Add to Chrome</h3>
+                            <p class="text-grey text-xl mt-2 mb-3">Minimum version 62.3.1</p>
+                        </div>
+                            <hr class="bg-white border-b">
+                        <div class="flex p-6 items-center justify-center">
+                            <button type="button" class="btn-extension btn-purple hover:bg-white hover:text-black text-lg mt-3">Add & Install Extension</button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col shadow-md rounded-md lg:my-8">
+                        <div class="flex flex-col items-center p-6">
+                            <img src="img/logo-firefox.svg" alt="Image not found">
+                            <h3 class="text-lg text-blue font-semibold mt-8">Add to Firefox</h3>
+                            <p class="text-grey text-xl mt-2 mb-3">Minimum version 58.5.0</p>
+                        </div>
+                            <hr class="bg-white border-b">
+                        <div class="flex p-6 items-center justify-center">
+                            <button type="button" class="btn-extension btn-purple hover:bg-white hover:text-black text-lg mt-3">Add & Install Extension</button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col shadow-md rounded-md lg:mt-16">
+                        <div class="flex flex-col items-center p-6">
+                            <img src="img/logo-opera.svg" alt="Image not found">
+                            <h3 class="text-lg text-blue font-semibold mt-8">Add to Opera</h3>
+                            <p class="text-grey text-xl mt-2 mb-3">Minimum version 62.1.7</p>
+                        </div>
+                            <hr class="bg-white border-b">
+                        <div class="flex p-6 items-center justify-center">
+                            <button type="button" class="btn-extension btn-purple hover:bg-white hover:text-black text-lg mt-3">Add & Install Extension</button>
+                        </div>
+                    </div>
+                </div>               
+
+            </section>
+
+
+            <section class="py-20 mt-20 bg-bookmark-white">
+                <div class="container">
+                    <h1 class="text-3xl text-center text-blue">Fequenty Asked Questions</h1>
+                    <p class="text-center text-grey mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia sunt natus nesciunt.
+                    </p>
+                </div>
+                <div class="container">
+                    <div class="flex flex-col sm:w-3/4 lg:-w-5/12 mt-12 mx-auto">
+                        <div class="flex flex-col  border-b py-4 ask">
+                            <div class="flex items-center">
+                                <span class="flex-1">Whaat is a Bookmark?</span>
+                                <i class="fas fa-chevron-down text-purple"></i>
+                            </div>
+                        </div>
+                        <div class="flex flex-col  border-b py-4">
+                            <div class="flex items-center">
+                                <span class="flex-1">How san I request a new browser?</span>
+                                <i class="fas fa-chevron-down text-purple"></i>
+                            </div>
+                        </div>
+                        <div class="flex flex-col  border-b py-4">
+                            <div class="flex items-center">
+                                <span class="flex-1">Is there a mobile app?</span>
+                                <i class="fas fa-chevron-down text-purple"></i>
+                            </div>
+                        </div>
+                        <div class="flex flex-col  border-b py-4">
+                            <div class="flex items-center">
+                                <span class="flex-1">Whaat about other Chromium browsers?</span>
+                                <i class="fas fa-chevron-down text-purple"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <button type="button" class="mt-12 block btn btn-purple hover:bg-white hover:text-black text-lg">More Info</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-purple text-white py-20">
+                <div class="container">
+                    <div class="sm:w-3/4 lg:w-1/2 mx-auto">
+                        <p class="uppercase text-center mb-8">35,000+ already joined</p>
+                        <h1 class="text-3xl text-center">Stay p-to-date with what we're doing</h1>
+                        <div class="flex flex-col sm:flex-row gap-6 mt-8">
+                            <input type="text" placeholder="Enter your email address" class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black">
+                            <button type="button" class="btn btn-red hover:bg-white hover:text-black text-lg">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="bg-blue py-8">
+                <div class="container flex flex-col md:flex-row items-center">
+                    <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-8 md:gap-12">
+                        <img src="./img/logo-bookmark-white.png" alt="Image not found">
+                        <ul class="flex lg:gap-12 text-white uppercase text-xs gap-5">
+                            <li><a href="#" class="no-underline">feature</a></li>
+                            <li><a href="#" class="no-underline">pricing</a></li>
+                            <li><a href="#" class="no-underline">contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="mt-8 md:mt-0">
+                        <ul class="list-none flex lg:gap-12 gap-5">
+                            <li class="text-white"><i class="fab fa-twitter"></i></li>
+                            <li class="text-white"><i class="fab fa-facebook-square"></i></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

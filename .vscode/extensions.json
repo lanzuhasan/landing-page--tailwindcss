@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-complete-tag",
+        "bradlc.vscode-tailwindcss"
+    ]
+}
